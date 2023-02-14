@@ -2,7 +2,7 @@ import { GithubOutlined } from '@ant-design/icons';
 import { DefaultFooter } from '@ant-design/pro-components';
 import '@umijs/max';
 const Footer: React.FC = () => {
-  const defaultMessage = '蚂蚁集团体验技术部出品';
+  const defaultMessage = '由Ant Design 修改而来';
   const currentYear = new Date().getFullYear();
   return (
     <DefaultFooter
@@ -12,21 +12,21 @@ const Footer: React.FC = () => {
       copyright={`${currentYear} ${defaultMessage}`}
       links={[
         {
-          key: 'Ant Design Pro',
-          title: 'Ant Design Pro',
-          href: 'https://pro.ant.design',
+          key: 'API开放平台',
+          title: 'API开放平台',
+          href: 'https://github.com/Macro-Laplace/liweiAPI-backend',
           blankTarget: true,
         },
         {
           key: 'github',
           title: <GithubOutlined />,
-          href: 'https://github.com/ant-design/ant-design-pro',
+          href: 'https://github.com/Macro-Laplace/liweiAPI-backend',
           blankTarget: true,
         },
         {
-          key: 'Ant Design',
-          title: 'Ant Design',
-          href: 'https://ant.design',
+          key: 'API开放平台',
+          title: '源码',
+          href: 'https://github.com/Macro-Laplace/liweiAPI-backend',
           blankTarget: true,
         },
       ]}

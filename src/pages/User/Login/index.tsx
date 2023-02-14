@@ -65,8 +65,9 @@ const Login: React.FC = () => {
       <div className={styles.content}>
         <LoginForm
           logo={<img alt="logo" src="/logo.svg" />}
-          title="Ant Design"
-          subTitle={'Ant Design 是西湖区最具影响力的 Web 设计规范'}
+          title="API开放平台"
+          subTitle={'管理员体验：账号liwei密码12345678普通用户体验：账号lili密码12345678'}
+
           initialValues={{
             autoLogin: true,
           }}
@@ -199,8 +200,11 @@ const Login: React.FC = () => {
               style={{
                 float: 'right',
               }}
+              href={"mailto:liweiQAQ@outlook.com?subject=Reset-Password&body=My-account-is"}
+              target="_blank"
+              rel="noreferrer"
             >
-              忘记密码 ?
+              忘记密码
             </a>
           </div>
         </LoginForm>
